@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Internship1</string>
+    <string name="name_error">Enter valid name</string>
+    <string name="email_error">Enter valid email</string>
+    <string name="number_error">Enter valid mobile</string>
+    <string name="password_error">Enter valid password</string>
+    <array name="country">
+        <item>India</item>
+        <item>USA</item>
+        <item>UK</item>
+        <item>Portugal</item>
+        <item>France</item>
+        <item>Australia</item>
+        <item>Italy</item>
+    </array>
+</resources>

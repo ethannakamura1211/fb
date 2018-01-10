@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"
+    tools:context="com.example.istworkshop.internship1.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="180dp"
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:onClick="move_to"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:hint="Userame..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:hint="Password..."
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:text="Sign Up For Facebook"
+        android:clickable="true"
+        android:onClick="s_up"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/facebooklogo" />
+
+</RelativeLayout>
